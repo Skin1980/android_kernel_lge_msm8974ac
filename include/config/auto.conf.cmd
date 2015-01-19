@@ -62,6 +62,7 @@ deps_config := \
 	fs/sysfs/Kconfig \
 	fs/proc/Kconfig \
 	fs/ntfs/Kconfig \
+	fs/exfat/Kconfig \
 	fs/fat/Kconfig \
 	fs/udf/Kconfig \
 	fs/isofs/Kconfig \
@@ -423,6 +424,7 @@ deps_config := \
 	drivers/input/gameport/Kconfig \
 	drivers/input/serio/Kconfig \
 	drivers/input/misc/Kconfig \
+	drivers/input/touchscreen/DS5/Kconfig \
 	drivers/input/touchscreen/gt9xx/Kconfig \
 	drivers/input/touchscreen/synaptics_dsx/Kconfig \
 	drivers/input/touchscreen/Kconfig \
@@ -722,6 +724,7 @@ deps_config := \
 	kernel/time/Kconfig \
 	drivers/pcmcia/Kconfig \
 	drivers/pci/Kconfig \
+	arch/arm/hotplug/Kconfig \
 	arch/arm/common/Kconfig \
 	arch/arm/Kconfig-nommu \
 	arch/arm/mm/Kconfig \
